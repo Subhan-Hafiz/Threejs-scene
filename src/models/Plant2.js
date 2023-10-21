@@ -9,11 +9,11 @@ import { Clone, useGLTF,
 
 
 export default function Plant2(props) {
-  const model = useGLTF('https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/cactus/model.gltf')
+  const model = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/cactus/model.gltf')
   return (
     <Clone {...props} object={model.scene} /> 
     
   )
 }
 
-useGLTF.preload('https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/cactus/model.gltf')
+useGLTF.preload('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/cactus/model.gltf')
