@@ -9,11 +9,11 @@ import { Clone, useGLTF,
 
 
 export default function Podium(props) {
-  const model = useGLTF('https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/can/model.gltf')
+  const model = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/soda-can/model.gltf')
   return (
     <Clone {...props} object={model.scene} />     
 
   )
 }
 
-useGLTF.preload('https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/models/can/model.gltf')
+useGLTF.preload('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/soda-can/model.gltf')
